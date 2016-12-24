@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Maitree');
+
+body {
+  font-family: 'Maitree', serif;
+  background-image: linear-gradient(217deg, #f6f6f6, #e9e9e9);
+  background-size: 100%;
+	background-attachment: fixed;
+}
+
+h1{
+  color: white;
+   text-shadow: 1px 1px 2px rgba(63,107,169, 0.2);
+}
+
+h2{
+  font-family: 'Maitree';
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 7.5px;
+  text-align: center;
+}
+
+h4{
+  color: #848484;
+  font-family: 'Maitree';
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 7.5px;
+  text-align: center;
+}
+
+.message {
+  color: #D13030;
+}
+.home {
+  padding-right: -10cm;
+  margin-top: -1cm;
+  margin-right: 0.2cm;
+  padding-left: 0.5cm;
+  text-shadow: 3px 3px 2px rgba(0,0,51, 0.3);
+  background-position: absolute;
+  color: white;
+  font-size: 30px;
+  width: 100%;
+  background-attachment: fixed;
+}
+
+.index {
+    background-image: url("../images/head.png");
+
+}
+
+.admin {
+  background-image: url("../images/admin.png");
+}
+
+.mybooks {
+  background-image: url("../images/loan.png");
+}
+.quote {
+  color: white;
+  font-size: 25px;
+  text-shadow: 1px 1px 2px rgba(0,0,0, 0.3);
+}
+
+.text-grey {
+  color: #6F6F6F;
+}
+
+.line2 {
+  width: 10%;
+  border: solid 0.1px #FFFFFF;
+}
+
+.line {
+  width: 80%;
+  border: solid 0.001px #A0A0A0;
+}
+
+nav {
+    list-style-type: none;
+    padding-right: -10cm;
+    margin-right: -0.5cm;
+    margin-left: -2cm;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 2px 2px 2px rgba(0,0,51, 0.15);
+}
+  .navbar-fixed {
+    top: 0;
+    z-index: 100;
+    position: fixed;
+    width: 108%;
+    margin-right: -0.5cm;
+    margin-left: -2cm;
+
+}
+
+.navbar-right {
+  padding-right: 1.5cm;
+}
+
+.card {
+	  font-family: 'Maitree', serif;
+  	margin: 3em;
+  	background: #ffffff;
+    vertical-align: top;
+  	border-radius: 5px;
+    position: relative;
+  	display:inline-block;
+  	box-shadow: 0 1px 3px rgba(0,0,0,0.10), 0 1px 2px rgba(0,0,0,0.10);
+    transition: all 0.5s cubic-bezier(.30,.7,.25,1);
+  }
+
+.bitmap {
+  width: 294.4px;
+  height: 362.5px;
+}
+
+.bitmap:hover {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.20), 0 1px 2px rgba(0,0,0,0.20);
+}
+
+.booktitle {
+  margin-top: 0.5cm;
+  width: 240px;
+  font-family: 'Maitree';
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: center;
+  color: #1580b1;
+}
+.booktitle:hover {
+  text-shadow: 1px 1px 2px rgba(63,107,169, 0.2);
+}
+
+.author {
+  width: 240px;
+  font-family: 'Maitree';
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: center;
+  color: #1580b1;
+}
+.description {
+  width: 240px;
+  font-family: 'Maitree';
+  font-size: 9px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: center;
+  color: #6f6f6f;
+}
+
+.quantity {
+  width: 200px;
+  font-family: Maitree;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: center;
+  color: #6f6f6f;
+}
+
+.quote2 {
+  width: 1000px;
+  font-family: 'Maitree';
+  font-size: 22px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: center;
+  color: #545454;
+}
+
+.quoter {
+  width: 342px;
+  font-family: 'Maitree';
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: center;
+  color: #545454;
+}
+
+#logout {
+  border: none;
+  background-color: white;
+  color: #1580B1;
+  padding-top: 15px;
+}
+
+.inactive {
+  color: #848484;
+  font-style: normal;
+}
